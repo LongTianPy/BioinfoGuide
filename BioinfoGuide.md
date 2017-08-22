@@ -31,4 +31,20 @@ cd ~/Software/FastQC
 ./fastqc
 ```
 
-This will open the GUI of FastQC. Open the
+This will open the GUI of FastQC. Open one of the merged reads, and check the report after waiting for a while.
+
+Things to look at in the report:
+`sequence length` in the basic statistics tab, `per base sequence quality` for the distribution of quality, `per base sequence content` for the approximate length of adapters.
+
+Then trim the raw reads according to the quality report. There is no strict values of quality control, but adapter sequences have to be removed, quality score at least 30, and keep a reasonable length of raw reads so that it can be assembled.
+
+[`Trimmomatic`](http://www.usadellab.org/cms/?page=trimmomatic) is used to trim the reads, for example:
+```bash
+cd ~/Data/raw_reads
+java -jar \
+~/Software//home/vinatzerlab/Software/Trimmomatic-0.32/trimmomatic-0.32.jar \
+PE -phred33 merged_R1.fastq merged_R2.fastq \
+trimmed_R1_paired.fq trimmed_R1_unpaired.fq \
+trimmed_R2_paired.fq trimmed_R2_unpaired.fq \
+HEADCROP:12 SLIDINGWINDOW:4:30 MINLEN:160
+```
