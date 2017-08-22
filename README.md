@@ -12,7 +12,7 @@ Content
 --
 
 1. [Downloading genome assemblies from NCBI GenBank](BioinfoGuide.md#Downloading-genome-assemblies-from-NCBI-GenBank)
-2. [Assembling genomes with SPAdes](#Assembling-genomes-with SPAdes)
+2. [Assembling genomes with SPAdes](BioinfoGuide.md#Assembling-genomes-with SPAdes)
 3. [BIGSdb installation information](BioinfoGuide.md#BIGSdb-installation-information)
 4. [Core- and Pan-genome analyses using GET_HOMOLOGUES](BioinfoGuide.md#Core-and-Pan-genome-analyses-using-GET_HOMOLOGUES)
 5. [Phylogenetic analysis with RAxML](BioinfoGuide.md#Phylogenetic-analysis-with-RAxML)
