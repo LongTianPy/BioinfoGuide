@@ -19,5 +19,5 @@ Content
 6. [LIN code assignment](BioinfoGuide.md#LIN-code-assignment)
 7. [To copy files to the server](BioinfoGuide.md#To-copy-files-to-the-server)
 8. [List of software installed on the server](BioinfoGuide.md#List-of-software-installed-on-the-server)
-9. [Generate a table of pairwise SNPs from a fasta file](BioinfoGuide.md#Generate-a-table-of-pairwise-SNPs-from-a-fasta-file)
+9. [Phylogenetic analysis with RAxML](BioinfoGuide.md#Phylogenetic-analysis-with-RAxML)
 10. [Search and replace inside a file using a table of search and replace terms](BioinfoGuide.md#Search-and-replace-inside-a-file-using-a-table-of-search-and-replace-terms)
